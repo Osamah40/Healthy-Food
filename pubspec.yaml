@@ -36,11 +36,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   get: ^4.6.6
+  http: ^1.2.1
+  file_picker: ^8.0.5
+  image_picker: ^1.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  http: ^0.13.3
   
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -66,8 +68,11 @@ flutter:
   - assets/images/Logo.png
   - assets/images/Ellipse 1.png
   - assets/images/Edit icon.png
-  - assets/images/don'tlook.png
   - assets/images/camera.png
+  - assets/images/Incorrect.png
+  - assets/images/leaving.png
+  - assets/images/sad emoji.png
+  - assets/images/Success.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
